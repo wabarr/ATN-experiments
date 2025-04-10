@@ -1,0 +1,147 @@
+---
+title: "ATN-experiments"
+author: "W. Andrew Barr"
+date: "2025-04-10"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+## *Caveat emptor*
+
+In the current state of code development, link weights are ignored, so if a carnivore feeds on 20 different species, then the ATN model assumes the strength of each interaction is 1/20.  This is unrealistic and needs to change soon. For now the focus is on building an experimental pipeline where we can tweak the models to understand their behavior.  
+
+Also, initial biomasses between 2 and 3 are randomly assigned to all producer and consumer nodes
+
+All other parameters are the defaults created by `ATNr::create_model_Scaled()`
+
+## Load required dependencies and source custom functions
+
+
+```{r}
+library(ATNr)
+library(dplyr)
+library(tidyr)
+library(ggplot2)
+library(igraph)
+
+
+## load up custom functions for plotting and analysis
+source("./custom_functions/makeGraphForATN.R")
+source("./custom_functions/runATN.R")
+source("./custom_functions/ggATNplot.R")
+source("./custom_functions/plotGraphWithGuilds.R")
+
+## import links output from Alyssa's random forest models
+UBurgiLinks <- read.csv("./data/upperBurgi_species.csv")
+```
+
+## Legend for networks with guilds color coded
+
+```{r fig.width=2, fig.height=4}
+  guildColors <- 
+  data.frame(guilds = c("browser", "C3", "C4", "carnivore", "grazer", "mixed feeder"),
+             cols = c("#5FAD91","#411354", "#444585","#42778C","#F9E855", "#91CF65")
+            )
+ggplot(guildColors, aes(x=rep(1,6), y=1:6)) + 
+  geom_point(fill=guildColors$cols, size=12, pch=21) + 
+  geom_text(label=guildColors$guilds, y=1:6 - 0.45) + 
+  theme_classic(12) + 
+  scale_y_continuous(limits=c(0.5,6.5)) + 
+  scale_x_continuous(limits=c(0.98, 1.02)) + 
+  labs(title="Legend for networks") + 
+  theme(axis.title.x=element_blank(),
+        axis.text.x=element_blank(),
+        axis.ticks.x=element_blank(),
+        axis.title.y=element_blank(),
+        axis.text.y=element_blank(),
+        axis.ticks.y=element_blank())
+  
+```
+
+## Experiment 1 
+
+### 1.1 - single C3 and single C4 producer node of equal body mass
+
+
+```{r}
+g <- makeGraphForATN(linkDF = UBurgiLinks, 
+                     nC4 = 1, 
+                     nC3 = 1,
+                     C4bm = 0.1,
+                     C3bm = 0.1
+                     )
+plotGraphWithGuilds(g)
+
+solved <- runATN(graph=g)
+
+ggATNplot(solved$solution, solved$graph)
+```
+
+
+### 1.2 - 10 C3 and 10 C4 producer nodes of equal body mass
+
+```{r}
+g <- makeGraphForATN(linkDF = UBurgiLinks, 
+                     nC4 = 10, 
+                     nC3 = 10,
+                     C4bm = 0.1,
+                     C3bm = 0.1
+                     )
+plotGraphWithGuilds(g)
+
+solved <- runATN(graph=g)
+
+ggATNplot(solved$solution, solved$graph)
+```
+
+### 1.3 - 100 C3 and 100 C4 producer nodes of equal body mass
+
+```{r}
+g <- makeGraphForATN(linkDF = UBurgiLinks, 
+                     nC4 = 100, 
+                     nC3 = 100,
+                     C4bm = 0.1,
+                     C3bm = 0.1
+                     )
+plotGraphWithGuilds(g)
+
+solved <- runATN(graph=g)
+
+ggATNplot(solved$solution, solved$graph)
+```
+
+### 1.4 - Reflections on Experiment 1
+
+By adding additional producer nodes to the system we eliminate much of the biomass 'cycling' which occurs when there are few producer nodes.
+
+The combined biomass of the producers in each guild (which have equal body masses) increases dramatically when new producers are added. Combined biomass of the C4 producers is 666.5 with 100 C4 producers, compared to 2.2 with a single C4 producer, reflecting approximately a 300 fold increase (note this would change if the producers were competing with one another which they are not).
+
+However, the biomass increase of the consumers is much less steep when additional producer nodes are added.  For instance, with 100 C4 producers, the combined biomass of all grazers is only 26.1 compared to a biomass of 1.8 with a single predictor representing about a 15 fold increase. 
+
+
+
+## Experiment 2 
+
+
+### 2.1 - 100 C3 and 100 C4 producer nodes with C3 bodymass / C4 bodymass = 10
+
+```{r}
+g <- makeGraphForATN(linkDF = UBurgiLinks, 
+                     nC4 = 100, 
+                     nC3 = 100,
+                     C4bm = 0.01,
+                     C3bm = 0.1
+                     )
+plotGraphWithGuilds(g)
+
+solved <- runATN(graph=g)
+
+ggATNplot(solved$solution, solved$graph)
+```
+
+### 2.2 - Reflections on Experiment 2
+
+There is only a very small (seemingly negligible) difference between experiment 2.1 and experiment 1.3 which had identical paramaters except a 10-fold difference in the C3 versus C4 node body masses,  which suggests to me that the body mass of the producers isn't a super important distinction (at least over the range of variation we have been discussing.)
+

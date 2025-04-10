@@ -1,0 +1,651 @@
+Predatory.behavior,carnivore_BM.kg,herbivore_BM.kg,Dietary.Guild,Substrate.Cat,scientificNameCarni,scientificNamePrey,RelationshipProbability
+ambush,159,10.39786,browser,semi.arboreal,Panthera leo,Lophocebus sp.,0.322
+ambush,159,102.5288,grazer,terrestrial,Panthera leo,Kobus ancystrocera,0.83
+ambush,159,109.9097124,grazer,terrestrial,Panthera leo,Kobus ellipsiprymnus,0.83
+ambush,159,128.268,grazer,terrestrial,Panthera leo,Oryx sp.,0.832
+ambush,159,132.1330377,browser,terrestrial,Panthera leo,Giraffa pygmaea,0.234
+ambush,159,133.2710467,grazer,terrestrial,Panthera leo,Connochaetes gentryi,0.832
+ambush,159,159.0201973,browser,terrestrial,Panthera leo,Tragelaphus strepsiceros,0.232
+ambush,159,167.0892479,mixed feeder,terrestrial,Panthera leo,Tragelaphus nakuae,0.538
+ambush,159,18.47564,browser,semi.arboreal,Panthera leo,Paracolobus mutiwa,0.348
+ambush,159,186.1955961,grazer,terrestrial,Panthera leo,Hippotragus gigas,0.83
+ambush,159,21.65387575,browser,semi.arboreal,Panthera leo,Cercopithecoides kimeui,0.222
+ambush,159,223.9939,browser,terrestrial,Panthera leo,Giraffa stillei-gracilis,0.234
+ambush,159,224.3292,grazer,terrestrial,Panthera leo,Eurygnathohippus ethiopicum,0.83
+ambush,159,23.6110847,browser,semi.arboreal,Panthera leo,Rhinocolobus turkanaensis,0.264
+ambush,159,231.2908944,grazer,terrestrial,Panthera leo,Megalotragus isaaci,0.83
+ambush,159,260.2536646,grazer,terrestrial,Panthera leo,Eurygnathohippus cornelianus,0.82
+ambush,159,275.3058287,grazer,terrestrial,Panthera leo,Metridiochoerus modestus,0.772
+ambush,159,275.7732912,grazer,terrestrial,Panthera leo,Pelorovis turkanensis,0.772
+ambush,159,30.71047932,browser,semi.arboreal,Panthera leo,Cercopithecoides williamsi,0.286
+ambush,159,307.4342098,grazer,terrestrial,Panthera leo,Eurygnathohippus hasumense,0.742
+ambush,159,321.7111712,grazer,terrestrial,Panthera leo,Kolpochoerus limnetes,0.742
+ambush,159,342.4805,grazer,semi.aquatic,Panthera leo,aff.Hippopotamus aethiopicus,0.672
+ambush,159,3455.726179,browser,terrestrial,Panthera leo,Deinotherium bozasi,0.412
+ambush,159,346.148887,browser,terrestrial,Panthera leo,Giraffa jumae,0.234
+ambush,159,355.0173762,grazer,terrestrial,Panthera leo,Pelorovis oldowayensis,0.81
+ambush,159,36.86083147,mixed feeder,terrestrial,Panthera leo,Antidorcas recki,0.41
+ambush,159,378.8974598,grazer,terrestrial,Panthera leo,Equus koobiforensis,0.81
+ambush,159,39.22960369,mixed feeder,terrestrial,Panthera leo,Gazella janenschi,0.41
+ambush,159,39.87369,mixed feeder,terrestrial,Panthera leo,Gazella praethomsoni,0.41
+ambush,159,41.54340301,mixed feeder,terrestrial,Panthera leo,Theropithecus brumpti,0.41
+ambush,159,46.62301909,grazer,terrestrial,Panthera leo,Redunca sp.,0.686
+ambush,159,538.231286,grazer,terrestrial,Panthera leo,Metridiochoerus hopwoodi,0.818
+ambush,159,54.88472739,grazer,terrestrial,Panthera leo,Theropithecus oswaldi,0.64
+ambush,159,56.21818506,grazer,terrestrial,Panthera leo,Kobus leche,0.636
+ambush,159,567.031,grazer,terrestrial,Panthera leo,Notochoerus euilus/scotti,0.818
+ambush,159,57.88258579,grazer,terrestrial,Panthera leo,Kobus kob,0.626
+ambush,159,59.62460828,mixed feeder,terrestrial,Panthera leo,Aepyceros melampus,0.346
+ambush,159,6.896869945,browser,arboreal,Panthera leo,Colobus freedmani,0.12
+ambush,159,600.9485317,grazer,terrestrial,Panthera leo,Metridiochoerus andrewsi,0.818
+ambush,159,695.3814794,mixed feeder,terrestrial,Panthera leo,Sivatherium maurusium,0.572
+ambush,159,705.7447,grazer,semi.aquatic,Panthera leo,aff.Hippopotamus karumensis,0.696
+ambush,159,7178.612708,mixed feeder,terrestrial,Panthera leo,Loxodonta adaurora,0.566
+ambush,159,742.9456,mixed feeder,terrestrial,Panthera leo,Ceratotherium mauritanicum/simum,0.576
+ambush,159,86.71985908,grazer,terrestrial,Panthera leo,Kobus sigmoidalis,0.842
+ambush,159,89.7214,grazer,terrestrial,Panthera leo,Damaliscus eppsi,0.842
+ambush,159,92.67248,grazer,terrestrial,Panthera leo,Beatragus antiquus,0.842
+ambush,159,925.279333,browser,terrestrial,Panthera leo,Diceros bicornis,0.418
+ambush,159,9320.381943,grazer,terrestrial,Panthera leo,Elephas recki,0.776
+ambush,159,96.38324658,grazer,terrestrial,Panthera leo,Menelikia lyrocera,0.842
+ambush,159,970.8538527,grazer,semi.aquatic,Panthera leo,Hippopotamus gorgops,0.708
+ambush,199,10.39786,browser,semi.arboreal,Dinofelis aronoki,Lophocebus sp.,0.322
+ambush,199,102.5288,grazer,terrestrial,Dinofelis aronoki,Kobus ancystrocera,0.83
+ambush,199,109.9097124,grazer,terrestrial,Dinofelis aronoki,Kobus ellipsiprymnus,0.83
+ambush,199,128.268,grazer,terrestrial,Dinofelis aronoki,Oryx sp.,0.832
+ambush,199,132.1330377,browser,terrestrial,Dinofelis aronoki,Giraffa pygmaea,0.234
+ambush,199,133.2710467,grazer,terrestrial,Dinofelis aronoki,Connochaetes gentryi,0.832
+ambush,199,159.0201973,browser,terrestrial,Dinofelis aronoki,Tragelaphus strepsiceros,0.232
+ambush,199,167.0892479,mixed feeder,terrestrial,Dinofelis aronoki,Tragelaphus nakuae,0.538
+ambush,199,18.47564,browser,semi.arboreal,Dinofelis aronoki,Paracolobus mutiwa,0.348
+ambush,199,186.1955961,grazer,terrestrial,Dinofelis aronoki,Hippotragus gigas,0.83
+ambush,199,21.65387575,browser,semi.arboreal,Dinofelis aronoki,Cercopithecoides kimeui,0.222
+ambush,199,223.9939,browser,terrestrial,Dinofelis aronoki,Giraffa stillei-gracilis,0.234
+ambush,199,224.3292,grazer,terrestrial,Dinofelis aronoki,Eurygnathohippus ethiopicum,0.83
+ambush,199,23.6110847,browser,semi.arboreal,Dinofelis aronoki,Rhinocolobus turkanaensis,0.264
+ambush,199,231.2908944,grazer,terrestrial,Dinofelis aronoki,Megalotragus isaaci,0.83
+ambush,199,260.2536646,grazer,terrestrial,Dinofelis aronoki,Eurygnathohippus cornelianus,0.82
+ambush,199,275.3058287,grazer,terrestrial,Dinofelis aronoki,Metridiochoerus modestus,0.772
+ambush,199,275.7732912,grazer,terrestrial,Dinofelis aronoki,Pelorovis turkanensis,0.772
+ambush,199,30.71047932,browser,semi.arboreal,Dinofelis aronoki,Cercopithecoides williamsi,0.286
+ambush,199,307.4342098,grazer,terrestrial,Dinofelis aronoki,Eurygnathohippus hasumense,0.742
+ambush,199,321.7111712,grazer,terrestrial,Dinofelis aronoki,Kolpochoerus limnetes,0.742
+ambush,199,342.4805,grazer,semi.aquatic,Dinofelis aronoki,aff.Hippopotamus aethiopicus,0.672
+ambush,199,3455.726179,browser,terrestrial,Dinofelis aronoki,Deinotherium bozasi,0.412
+ambush,199,346.148887,browser,terrestrial,Dinofelis aronoki,Giraffa jumae,0.234
+ambush,199,355.0173762,grazer,terrestrial,Dinofelis aronoki,Pelorovis oldowayensis,0.81
+ambush,199,36.86083147,mixed feeder,terrestrial,Dinofelis aronoki,Antidorcas recki,0.41
+ambush,199,378.8974598,grazer,terrestrial,Dinofelis aronoki,Equus koobiforensis,0.81
+ambush,199,39.22960369,mixed feeder,terrestrial,Dinofelis aronoki,Gazella janenschi,0.41
+ambush,199,39.87369,mixed feeder,terrestrial,Dinofelis aronoki,Gazella praethomsoni,0.41
+ambush,199,41.54340301,mixed feeder,terrestrial,Dinofelis aronoki,Theropithecus brumpti,0.41
+ambush,199,46.62301909,grazer,terrestrial,Dinofelis aronoki,Redunca sp.,0.686
+ambush,199,538.231286,grazer,terrestrial,Dinofelis aronoki,Metridiochoerus hopwoodi,0.818
+ambush,199,54.88472739,grazer,terrestrial,Dinofelis aronoki,Theropithecus oswaldi,0.64
+ambush,199,56.21818506,grazer,terrestrial,Dinofelis aronoki,Kobus leche,0.636
+ambush,199,567.031,grazer,terrestrial,Dinofelis aronoki,Notochoerus euilus/scotti,0.818
+ambush,199,57.88258579,grazer,terrestrial,Dinofelis aronoki,Kobus kob,0.626
+ambush,199,59.62460828,mixed feeder,terrestrial,Dinofelis aronoki,Aepyceros melampus,0.346
+ambush,199,6.896869945,browser,arboreal,Dinofelis aronoki,Colobus freedmani,0.12
+ambush,199,600.9485317,grazer,terrestrial,Dinofelis aronoki,Metridiochoerus andrewsi,0.818
+ambush,199,695.3814794,mixed feeder,terrestrial,Dinofelis aronoki,Sivatherium maurusium,0.572
+ambush,199,705.7447,grazer,semi.aquatic,Dinofelis aronoki,aff.Hippopotamus karumensis,0.696
+ambush,199,7178.612708,mixed feeder,terrestrial,Dinofelis aronoki,Loxodonta adaurora,0.566
+ambush,199,742.9456,mixed feeder,terrestrial,Dinofelis aronoki,Ceratotherium mauritanicum/simum,0.576
+ambush,199,86.71985908,grazer,terrestrial,Dinofelis aronoki,Kobus sigmoidalis,0.842
+ambush,199,89.7214,grazer,terrestrial,Dinofelis aronoki,Damaliscus eppsi,0.842
+ambush,199,92.67248,grazer,terrestrial,Dinofelis aronoki,Beatragus antiquus,0.842
+ambush,199,925.279333,browser,terrestrial,Dinofelis aronoki,Diceros bicornis,0.418
+ambush,199,9320.381943,grazer,terrestrial,Dinofelis aronoki,Elephas recki,0.776
+ambush,199,96.38324658,grazer,terrestrial,Dinofelis aronoki,Menelikia lyrocera,0.842
+ambush,199,970.8538527,grazer,semi.aquatic,Dinofelis aronoki,Hippopotamus gorgops,0.708
+ambush,52,10.39786,browser,semi.arboreal,Megantereon sp.,Lophocebus sp.,0.918
+ambush,52,10.39786,browser,semi.arboreal,Panthera pardus,Lophocebus sp.,0.918
+ambush,52,102.5288,grazer,terrestrial,Panthera pardus,Kobus ancystrocera,0.82
+ambush,52,102.5288,grazer,terrestrial,Megantereon sp.,Kobus ancystrocera,0.82
+ambush,52,109.9097124,grazer,terrestrial,Megantereon sp.,Kobus ellipsiprymnus,0.82
+ambush,52,109.9097124,grazer,terrestrial,Panthera pardus,Kobus ellipsiprymnus,0.82
+ambush,52,128.268,grazer,terrestrial,Panthera pardus,Oryx sp.,0.816
+ambush,52,128.268,grazer,terrestrial,Megantereon sp.,Oryx sp.,0.816
+ambush,52,132.1330377,browser,terrestrial,Megantereon sp.,Giraffa pygmaea,0.884
+ambush,52,132.1330377,browser,terrestrial,Panthera pardus,Giraffa pygmaea,0.884
+ambush,52,133.2710467,grazer,terrestrial,Megantereon sp.,Connochaetes gentryi,0.816
+ambush,52,133.2710467,grazer,terrestrial,Panthera pardus,Connochaetes gentryi,0.816
+ambush,52,159.0201973,browser,terrestrial,Megantereon sp.,Tragelaphus strepsiceros,0.88
+ambush,52,159.0201973,browser,terrestrial,Panthera pardus,Tragelaphus strepsiceros,0.88
+ambush,52,167.0892479,mixed feeder,terrestrial,Panthera pardus,Tragelaphus nakuae,0.832
+ambush,52,167.0892479,mixed feeder,terrestrial,Megantereon sp.,Tragelaphus nakuae,0.832
+ambush,52,18.47564,browser,semi.arboreal,Megantereon sp.,Paracolobus mutiwa,0.904
+ambush,52,18.47564,browser,semi.arboreal,Panthera pardus,Paracolobus mutiwa,0.904
+ambush,52,186.1955961,grazer,terrestrial,Megantereon sp.,Hippotragus gigas,0.816
+ambush,52,186.1955961,grazer,terrestrial,Panthera pardus,Hippotragus gigas,0.816
+ambush,52,21.65387575,browser,semi.arboreal,Panthera pardus,Cercopithecoides kimeui,0.758
+ambush,52,21.65387575,browser,semi.arboreal,Megantereon sp.,Cercopithecoides kimeui,0.758
+ambush,52,223.9939,browser,terrestrial,Megantereon sp.,Giraffa stillei-gracilis,0.876
+ambush,52,223.9939,browser,terrestrial,Panthera pardus,Giraffa stillei-gracilis,0.876
+ambush,52,224.3292,grazer,terrestrial,Panthera pardus,Eurygnathohippus ethiopicum,0.812
+ambush,52,224.3292,grazer,terrestrial,Megantereon sp.,Eurygnathohippus ethiopicum,0.812
+ambush,52,23.6110847,browser,semi.arboreal,Megantereon sp.,Rhinocolobus turkanaensis,0.816
+ambush,52,23.6110847,browser,semi.arboreal,Panthera pardus,Rhinocolobus turkanaensis,0.816
+ambush,52,231.2908944,grazer,terrestrial,Megantereon sp.,Megalotragus isaaci,0.812
+ambush,52,231.2908944,grazer,terrestrial,Panthera pardus,Megalotragus isaaci,0.812
+ambush,52,260.2536646,grazer,terrestrial,Megantereon sp.,Eurygnathohippus cornelianus,0.802
+ambush,52,260.2536646,grazer,terrestrial,Panthera pardus,Eurygnathohippus cornelianus,0.802
+ambush,52,275.3058287,grazer,terrestrial,Megantereon sp.,Metridiochoerus modestus,0.754
+ambush,52,275.3058287,grazer,terrestrial,Panthera pardus,Metridiochoerus modestus,0.754
+ambush,52,275.7732912,grazer,terrestrial,Panthera pardus,Pelorovis turkanensis,0.754
+ambush,52,275.7732912,grazer,terrestrial,Megantereon sp.,Pelorovis turkanensis,0.754
+ambush,52,30.71047932,browser,semi.arboreal,Panthera pardus,Cercopithecoides williamsi,0.814
+ambush,52,30.71047932,browser,semi.arboreal,Megantereon sp.,Cercopithecoides williamsi,0.814
+ambush,52,307.4342098,grazer,terrestrial,Megantereon sp.,Eurygnathohippus hasumense,0.704
+ambush,52,307.4342098,grazer,terrestrial,Panthera pardus,Eurygnathohippus hasumense,0.704
+ambush,52,321.7111712,grazer,terrestrial,Panthera pardus,Kolpochoerus limnetes,0.704
+ambush,52,321.7111712,grazer,terrestrial,Megantereon sp.,Kolpochoerus limnetes,0.704
+ambush,52,342.4805,grazer,semi.aquatic,Megantereon sp.,aff.Hippopotamus aethiopicus,0.696
+ambush,52,342.4805,grazer,semi.aquatic,Panthera pardus,aff.Hippopotamus aethiopicus,0.696
+ambush,52,3455.726179,browser,terrestrial,Panthera pardus,Deinotherium bozasi,0.614
+ambush,52,3455.726179,browser,terrestrial,Megantereon sp.,Deinotherium bozasi,0.614
+ambush,52,346.148887,browser,terrestrial,Megantereon sp.,Giraffa jumae,0.816
+ambush,52,346.148887,browser,terrestrial,Panthera pardus,Giraffa jumae,0.816
+ambush,52,355.0173762,grazer,terrestrial,Panthera pardus,Pelorovis oldowayensis,0.742
+ambush,52,355.0173762,grazer,terrestrial,Megantereon sp.,Pelorovis oldowayensis,0.742
+ambush,52,36.86083147,mixed feeder,terrestrial,Megantereon sp.,Antidorcas recki,0.728
+ambush,52,36.86083147,mixed feeder,terrestrial,Panthera pardus,Antidorcas recki,0.728
+ambush,52,378.8974598,grazer,terrestrial,Megantereon sp.,Equus koobiforensis,0.74
+ambush,52,378.8974598,grazer,terrestrial,Panthera pardus,Equus koobiforensis,0.74
+ambush,52,39.22960369,mixed feeder,terrestrial,Panthera pardus,Gazella janenschi,0.728
+ambush,52,39.22960369,mixed feeder,terrestrial,Megantereon sp.,Gazella janenschi,0.728
+ambush,52,39.87369,mixed feeder,terrestrial,Panthera pardus,Gazella praethomsoni,0.74
+ambush,52,39.87369,mixed feeder,terrestrial,Megantereon sp.,Gazella praethomsoni,0.74
+ambush,52,41.54340301,mixed feeder,terrestrial,Panthera pardus,Theropithecus brumpti,0.758
+ambush,52,41.54340301,mixed feeder,terrestrial,Megantereon sp.,Theropithecus brumpti,0.758
+ambush,52,46.62301909,grazer,terrestrial,Panthera pardus,Redunca sp.,0.784
+ambush,52,46.62301909,grazer,terrestrial,Megantereon sp.,Redunca sp.,0.784
+ambush,52,538.231286,grazer,terrestrial,Panthera pardus,Metridiochoerus hopwoodi,0.734
+ambush,52,538.231286,grazer,terrestrial,Megantereon sp.,Metridiochoerus hopwoodi,0.734
+ambush,52,54.88472739,grazer,terrestrial,Megantereon sp.,Theropithecus oswaldi,0.788
+ambush,52,54.88472739,grazer,terrestrial,Panthera pardus,Theropithecus oswaldi,0.788
+ambush,52,56.21818506,grazer,terrestrial,Megantereon sp.,Kobus leche,0.786
+ambush,52,56.21818506,grazer,terrestrial,Panthera pardus,Kobus leche,0.786
+ambush,52,567.031,grazer,terrestrial,Megantereon sp.,Notochoerus euilus/scotti,0.734
+ambush,52,567.031,grazer,terrestrial,Panthera pardus,Notochoerus euilus/scotti,0.734
+ambush,52,57.88258579,grazer,terrestrial,Megantereon sp.,Kobus kob,0.782
+ambush,52,57.88258579,grazer,terrestrial,Panthera pardus,Kobus kob,0.782
+ambush,52,59.62460828,mixed feeder,terrestrial,Panthera pardus,Aepyceros melampus,0.798
+ambush,52,59.62460828,mixed feeder,terrestrial,Megantereon sp.,Aepyceros melampus,0.798
+ambush,52,6.896869945,browser,arboreal,Megantereon sp.,Colobus freedmani,0.906
+ambush,52,6.896869945,browser,arboreal,Panthera pardus,Colobus freedmani,0.906
+ambush,52,600.9485317,grazer,terrestrial,Panthera pardus,Metridiochoerus andrewsi,0.736
+ambush,52,600.9485317,grazer,terrestrial,Megantereon sp.,Metridiochoerus andrewsi,0.736
+ambush,52,695.3814794,mixed feeder,terrestrial,Megantereon sp.,Sivatherium maurusium,0.79
+ambush,52,695.3814794,mixed feeder,terrestrial,Panthera pardus,Sivatherium maurusium,0.79
+ambush,52,705.7447,grazer,semi.aquatic,Panthera pardus,aff.Hippopotamus karumensis,0.7
+ambush,52,705.7447,grazer,semi.aquatic,Megantereon sp.,aff.Hippopotamus karumensis,0.7
+ambush,52,7178.612708,mixed feeder,terrestrial,Megantereon sp.,Loxodonta adaurora,0.478
+ambush,52,7178.612708,mixed feeder,terrestrial,Panthera pardus,Loxodonta adaurora,0.478
+ambush,52,742.9456,mixed feeder,terrestrial,Megantereon sp.,Ceratotherium mauritanicum/simum,0.792
+ambush,52,742.9456,mixed feeder,terrestrial,Panthera pardus,Ceratotherium mauritanicum/simum,0.792
+ambush,52,86.71985908,grazer,terrestrial,Megantereon sp.,Kobus sigmoidalis,0.828
+ambush,52,86.71985908,grazer,terrestrial,Panthera pardus,Kobus sigmoidalis,0.828
+ambush,52,89.7214,grazer,terrestrial,Panthera pardus,Damaliscus eppsi,0.826
+ambush,52,89.7214,grazer,terrestrial,Megantereon sp.,Damaliscus eppsi,0.826
+ambush,52,92.67248,grazer,terrestrial,Panthera pardus,Beatragus antiquus,0.826
+ambush,52,92.67248,grazer,terrestrial,Megantereon sp.,Beatragus antiquus,0.826
+ambush,52,925.279333,browser,terrestrial,Megantereon sp.,Diceros bicornis,0.72
+ambush,52,925.279333,browser,terrestrial,Panthera pardus,Diceros bicornis,0.72
+ambush,52,9320.381943,grazer,terrestrial,Megantereon sp.,Elephas recki,0.354
+ambush,52,9320.381943,grazer,terrestrial,Panthera pardus,Elephas recki,0.354
+ambush,52,96.38324658,grazer,terrestrial,Megantereon sp.,Menelikia lyrocera,0.826
+ambush,52,96.38324658,grazer,terrestrial,Panthera pardus,Menelikia lyrocera,0.826
+ambush,52,970.8538527,grazer,semi.aquatic,Megantereon sp.,Hippopotamus gorgops,0.622
+ambush,52,970.8538527,grazer,semi.aquatic,Panthera pardus,Hippopotamus gorgops,0.622
+occasional,14,10.39786,browser,semi.arboreal,Civettictis sp.,Lophocebus sp.,0.052
+occasional,14,102.5288,grazer,terrestrial,Civettictis sp.,Kobus ancystrocera,0.02
+occasional,14,109.9097124,grazer,terrestrial,Civettictis sp.,Kobus ellipsiprymnus,0.018
+occasional,14,128.268,grazer,terrestrial,Civettictis sp.,Oryx sp.,0.016
+occasional,14,132.1330377,browser,terrestrial,Civettictis sp.,Giraffa pygmaea,0.024
+occasional,14,133.2710467,grazer,terrestrial,Civettictis sp.,Connochaetes gentryi,0.016
+occasional,14,159.0201973,browser,terrestrial,Civettictis sp.,Tragelaphus strepsiceros,0.014
+occasional,14,167.0892479,mixed feeder,terrestrial,Civettictis sp.,Tragelaphus nakuae,0.006
+occasional,14,18.47564,browser,semi.arboreal,Civettictis sp.,Paracolobus mutiwa,0.012
+occasional,14,186.1955961,grazer,terrestrial,Civettictis sp.,Hippotragus gigas,0.016
+occasional,14,21.65387575,browser,semi.arboreal,Civettictis sp.,Cercopithecoides kimeui,0.056
+occasional,14,223.9939,browser,terrestrial,Civettictis sp.,Giraffa stillei-gracilis,0.008
+occasional,14,224.3292,grazer,terrestrial,Civettictis sp.,Eurygnathohippus ethiopicum,0.016
+occasional,14,23.6110847,browser,semi.arboreal,Civettictis sp.,Rhinocolobus turkanaensis,0.074
+occasional,14,231.2908944,grazer,terrestrial,Civettictis sp.,Megalotragus isaaci,0.016
+occasional,14,260.2536646,grazer,terrestrial,Civettictis sp.,Eurygnathohippus cornelianus,0.016
+occasional,14,275.3058287,grazer,terrestrial,Civettictis sp.,Metridiochoerus modestus,0.016
+occasional,14,275.7732912,grazer,terrestrial,Civettictis sp.,Pelorovis turkanensis,0.016
+occasional,14,30.71047932,browser,semi.arboreal,Civettictis sp.,Cercopithecoides williamsi,0.106
+occasional,14,307.4342098,grazer,terrestrial,Civettictis sp.,Eurygnathohippus hasumense,0.016
+occasional,14,321.7111712,grazer,terrestrial,Civettictis sp.,Kolpochoerus limnetes,0.016
+occasional,14,342.4805,grazer,semi.aquatic,Civettictis sp.,aff.Hippopotamus aethiopicus,0.012
+occasional,14,3455.726179,browser,terrestrial,Civettictis sp.,Deinotherium bozasi,0.046
+occasional,14,346.148887,browser,terrestrial,Civettictis sp.,Giraffa jumae,0.014
+occasional,14,355.0173762,grazer,terrestrial,Civettictis sp.,Pelorovis oldowayensis,0.018
+occasional,14,36.86083147,mixed feeder,terrestrial,Civettictis sp.,Antidorcas recki,0.03
+occasional,14,378.8974598,grazer,terrestrial,Civettictis sp.,Equus koobiforensis,0.018
+occasional,14,39.22960369,mixed feeder,terrestrial,Civettictis sp.,Gazella janenschi,0.026
+occasional,14,39.87369,mixed feeder,terrestrial,Civettictis sp.,Gazella praethomsoni,0.026
+occasional,14,41.54340301,mixed feeder,terrestrial,Civettictis sp.,Theropithecus brumpti,0.02
+occasional,14,46.62301909,grazer,terrestrial,Civettictis sp.,Redunca sp.,0.01
+occasional,14,538.231286,grazer,terrestrial,Civettictis sp.,Metridiochoerus hopwoodi,0.022
+occasional,14,54.88472739,grazer,terrestrial,Civettictis sp.,Theropithecus oswaldi,0.02
+occasional,14,56.21818506,grazer,terrestrial,Civettictis sp.,Kobus leche,0.02
+occasional,14,567.031,grazer,terrestrial,Civettictis sp.,Notochoerus euilus/scotti,0.022
+occasional,14,57.88258579,grazer,terrestrial,Civettictis sp.,Kobus kob,0.012
+occasional,14,59.62460828,mixed feeder,terrestrial,Civettictis sp.,Aepyceros melampus,0.024
+occasional,14,6.896869945,browser,arboreal,Civettictis sp.,Colobus freedmani,0
+occasional,14,600.9485317,grazer,terrestrial,Civettictis sp.,Metridiochoerus andrewsi,0.022
+occasional,14,695.3814794,mixed feeder,terrestrial,Civettictis sp.,Sivatherium maurusium,0.014
+occasional,14,705.7447,grazer,semi.aquatic,Civettictis sp.,aff.Hippopotamus karumensis,0.016
+occasional,14,7178.612708,mixed feeder,terrestrial,Civettictis sp.,Loxodonta adaurora,0.008
+occasional,14,742.9456,mixed feeder,terrestrial,Civettictis sp.,Ceratotherium mauritanicum/simum,0.012
+occasional,14,86.71985908,grazer,terrestrial,Civettictis sp.,Kobus sigmoidalis,0.02
+occasional,14,89.7214,grazer,terrestrial,Civettictis sp.,Damaliscus eppsi,0.02
+occasional,14,92.67248,grazer,terrestrial,Civettictis sp.,Beatragus antiquus,0.02
+occasional,14,925.279333,browser,terrestrial,Civettictis sp.,Diceros bicornis,0.046
+occasional,14,9320.381943,grazer,terrestrial,Civettictis sp.,Elephas recki,0.01
+occasional,14,96.38324658,grazer,terrestrial,Civettictis sp.,Menelikia lyrocera,0.02
+occasional,14,970.8538527,grazer,semi.aquatic,Civettictis sp.,Hippopotamus gorgops,0.006
+occasional,34,10.39786,browser,semi.arboreal,Pseudocivetta ingens,Lophocebus sp.,0.01
+occasional,34,102.5288,grazer,terrestrial,Pseudocivetta ingens,Kobus ancystrocera,0.016
+occasional,34,109.9097124,grazer,terrestrial,Pseudocivetta ingens,Kobus ellipsiprymnus,0.014
+occasional,34,128.268,grazer,terrestrial,Pseudocivetta ingens,Oryx sp.,0.014
+occasional,34,132.1330377,browser,terrestrial,Pseudocivetta ingens,Giraffa pygmaea,0
+occasional,34,133.2710467,grazer,terrestrial,Pseudocivetta ingens,Connochaetes gentryi,0.014
+occasional,34,159.0201973,browser,terrestrial,Pseudocivetta ingens,Tragelaphus strepsiceros,0
+occasional,34,167.0892479,mixed feeder,terrestrial,Pseudocivetta ingens,Tragelaphus nakuae,0.008
+occasional,34,18.47564,browser,semi.arboreal,Pseudocivetta ingens,Paracolobus mutiwa,0.002
+occasional,34,186.1955961,grazer,terrestrial,Pseudocivetta ingens,Hippotragus gigas,0.014
+occasional,34,21.65387575,browser,semi.arboreal,Pseudocivetta ingens,Cercopithecoides kimeui,0.016
+occasional,34,223.9939,browser,terrestrial,Pseudocivetta ingens,Giraffa stillei-gracilis,0
+occasional,34,224.3292,grazer,terrestrial,Pseudocivetta ingens,Eurygnathohippus ethiopicum,0.014
+occasional,34,23.6110847,browser,semi.arboreal,Pseudocivetta ingens,Rhinocolobus turkanaensis,0.036
+occasional,34,231.2908944,grazer,terrestrial,Pseudocivetta ingens,Megalotragus isaaci,0.014
+occasional,34,260.2536646,grazer,terrestrial,Pseudocivetta ingens,Eurygnathohippus cornelianus,0.014
+occasional,34,275.3058287,grazer,terrestrial,Pseudocivetta ingens,Metridiochoerus modestus,0.014
+occasional,34,275.7732912,grazer,terrestrial,Pseudocivetta ingens,Pelorovis turkanensis,0.014
+occasional,34,30.71047932,browser,semi.arboreal,Pseudocivetta ingens,Cercopithecoides williamsi,0.084
+occasional,34,307.4342098,grazer,terrestrial,Pseudocivetta ingens,Eurygnathohippus hasumense,0.014
+occasional,34,321.7111712,grazer,terrestrial,Pseudocivetta ingens,Kolpochoerus limnetes,0.014
+occasional,34,342.4805,grazer,semi.aquatic,Pseudocivetta ingens,aff.Hippopotamus aethiopicus,0.014
+occasional,34,3455.726179,browser,terrestrial,Pseudocivetta ingens,Deinotherium bozasi,0.072
+occasional,34,346.148887,browser,terrestrial,Pseudocivetta ingens,Giraffa jumae,0.016
+occasional,34,355.0173762,grazer,terrestrial,Pseudocivetta ingens,Pelorovis oldowayensis,0.016
+occasional,34,36.86083147,mixed feeder,terrestrial,Pseudocivetta ingens,Antidorcas recki,0.018
+occasional,34,378.8974598,grazer,terrestrial,Pseudocivetta ingens,Equus koobiforensis,0.016
+occasional,34,39.22960369,mixed feeder,terrestrial,Pseudocivetta ingens,Gazella janenschi,0.018
+occasional,34,39.87369,mixed feeder,terrestrial,Pseudocivetta ingens,Gazella praethomsoni,0.018
+occasional,34,41.54340301,mixed feeder,terrestrial,Pseudocivetta ingens,Theropithecus brumpti,0.01
+occasional,34,46.62301909,grazer,terrestrial,Pseudocivetta ingens,Redunca sp.,0.012
+occasional,34,538.231286,grazer,terrestrial,Pseudocivetta ingens,Metridiochoerus hopwoodi,0.026
+occasional,34,54.88472739,grazer,terrestrial,Pseudocivetta ingens,Theropithecus oswaldi,0.034
+occasional,34,56.21818506,grazer,terrestrial,Pseudocivetta ingens,Kobus leche,0.034
+occasional,34,567.031,grazer,terrestrial,Pseudocivetta ingens,Notochoerus euilus/scotti,0.024
+occasional,34,57.88258579,grazer,terrestrial,Pseudocivetta ingens,Kobus kob,0.02
+occasional,34,59.62460828,mixed feeder,terrestrial,Pseudocivetta ingens,Aepyceros melampus,0.052
+occasional,34,6.896869945,browser,arboreal,Pseudocivetta ingens,Colobus freedmani,0
+occasional,34,600.9485317,grazer,terrestrial,Pseudocivetta ingens,Metridiochoerus andrewsi,0.024
+occasional,34,695.3814794,mixed feeder,terrestrial,Pseudocivetta ingens,Sivatherium maurusium,0.02
+occasional,34,705.7447,grazer,semi.aquatic,Pseudocivetta ingens,aff.Hippopotamus karumensis,0.022
+occasional,34,7178.612708,mixed feeder,terrestrial,Pseudocivetta ingens,Loxodonta adaurora,0.004
+occasional,34,742.9456,mixed feeder,terrestrial,Pseudocivetta ingens,Ceratotherium mauritanicum/simum,0.018
+occasional,34,86.71985908,grazer,terrestrial,Pseudocivetta ingens,Kobus sigmoidalis,0.016
+occasional,34,89.7214,grazer,terrestrial,Pseudocivetta ingens,Damaliscus eppsi,0.016
+occasional,34,92.67248,grazer,terrestrial,Pseudocivetta ingens,Beatragus antiquus,0.016
+occasional,34,925.279333,browser,terrestrial,Pseudocivetta ingens,Diceros bicornis,0.074
+occasional,34,9320.381943,grazer,terrestrial,Pseudocivetta ingens,Elephas recki,0.004
+occasional,34,96.38324658,grazer,terrestrial,Pseudocivetta ingens,Menelikia lyrocera,0.016
+occasional,34,970.8538527,grazer,semi.aquatic,Pseudocivetta ingens,Hippopotamus gorgops,0.008
+pounce/pursuit,11,10.39786,browser,semi.arboreal,Mellivora sp.,Lophocebus sp.,0.01
+pounce/pursuit,11,10.39786,browser,semi.arboreal,Lupulella sp.,Lophocebus sp.,0.01
+pounce/pursuit,11,102.5288,grazer,terrestrial,Lupulella sp.,Kobus ancystrocera,0.008
+pounce/pursuit,11,102.5288,grazer,terrestrial,Mellivora sp.,Kobus ancystrocera,0.008
+pounce/pursuit,11,109.9097124,grazer,terrestrial,Mellivora sp.,Kobus ellipsiprymnus,0.008
+pounce/pursuit,11,109.9097124,grazer,terrestrial,Lupulella sp.,Kobus ellipsiprymnus,0.008
+pounce/pursuit,11,128.268,grazer,terrestrial,Mellivora sp.,Oryx sp.,0.01
+pounce/pursuit,11,128.268,grazer,terrestrial,Lupulella sp.,Oryx sp.,0.01
+pounce/pursuit,11,132.1330377,browser,terrestrial,Mellivora sp.,Giraffa pygmaea,0.036
+pounce/pursuit,11,132.1330377,browser,terrestrial,Lupulella sp.,Giraffa pygmaea,0.036
+pounce/pursuit,11,133.2710467,grazer,terrestrial,Lupulella sp.,Connochaetes gentryi,0.01
+pounce/pursuit,11,133.2710467,grazer,terrestrial,Mellivora sp.,Connochaetes gentryi,0.01
+pounce/pursuit,11,159.0201973,browser,terrestrial,Lupulella sp.,Tragelaphus strepsiceros,0.024
+pounce/pursuit,11,159.0201973,browser,terrestrial,Mellivora sp.,Tragelaphus strepsiceros,0.024
+pounce/pursuit,11,167.0892479,mixed feeder,terrestrial,Mellivora sp.,Tragelaphus nakuae,0.01
+pounce/pursuit,11,167.0892479,mixed feeder,terrestrial,Lupulella sp.,Tragelaphus nakuae,0.01
+pounce/pursuit,11,18.47564,browser,semi.arboreal,Lupulella sp.,Paracolobus mutiwa,0.02
+pounce/pursuit,11,18.47564,browser,semi.arboreal,Mellivora sp.,Paracolobus mutiwa,0.02
+pounce/pursuit,11,186.1955961,grazer,terrestrial,Mellivora sp.,Hippotragus gigas,0.008
+pounce/pursuit,11,186.1955961,grazer,terrestrial,Lupulella sp.,Hippotragus gigas,0.008
+pounce/pursuit,11,21.65387575,browser,semi.arboreal,Lupulella sp.,Cercopithecoides kimeui,0.156
+pounce/pursuit,11,21.65387575,browser,semi.arboreal,Mellivora sp.,Cercopithecoides kimeui,0.156
+pounce/pursuit,11,223.9939,browser,terrestrial,Mellivora sp.,Giraffa stillei-gracilis,0.008
+pounce/pursuit,11,223.9939,browser,terrestrial,Lupulella sp.,Giraffa stillei-gracilis,0.008
+pounce/pursuit,11,224.3292,grazer,terrestrial,Mellivora sp.,Eurygnathohippus ethiopicum,0.01
+pounce/pursuit,11,224.3292,grazer,terrestrial,Lupulella sp.,Eurygnathohippus ethiopicum,0.01
+pounce/pursuit,11,23.6110847,browser,semi.arboreal,Mellivora sp.,Rhinocolobus turkanaensis,0.04
+pounce/pursuit,11,23.6110847,browser,semi.arboreal,Lupulella sp.,Rhinocolobus turkanaensis,0.04
+pounce/pursuit,11,231.2908944,grazer,terrestrial,Lupulella sp.,Megalotragus isaaci,0.01
+pounce/pursuit,11,231.2908944,grazer,terrestrial,Mellivora sp.,Megalotragus isaaci,0.01
+pounce/pursuit,11,260.2536646,grazer,terrestrial,Mellivora sp.,Eurygnathohippus cornelianus,0.008
+pounce/pursuit,11,260.2536646,grazer,terrestrial,Lupulella sp.,Eurygnathohippus cornelianus,0.008
+pounce/pursuit,11,275.3058287,grazer,terrestrial,Lupulella sp.,Metridiochoerus modestus,0.008
+pounce/pursuit,11,275.3058287,grazer,terrestrial,Mellivora sp.,Metridiochoerus modestus,0.008
+pounce/pursuit,11,275.7732912,grazer,terrestrial,Mellivora sp.,Pelorovis turkanensis,0.008
+pounce/pursuit,11,275.7732912,grazer,terrestrial,Lupulella sp.,Pelorovis turkanensis,0.008
+pounce/pursuit,11,30.71047932,browser,semi.arboreal,Mellivora sp.,Cercopithecoides williamsi,0.034
+pounce/pursuit,11,30.71047932,browser,semi.arboreal,Lupulella sp.,Cercopithecoides williamsi,0.034
+pounce/pursuit,11,307.4342098,grazer,terrestrial,Mellivora sp.,Eurygnathohippus hasumense,0.008
+pounce/pursuit,11,307.4342098,grazer,terrestrial,Lupulella sp.,Eurygnathohippus hasumense,0.008
+pounce/pursuit,11,321.7111712,grazer,terrestrial,Lupulella sp.,Kolpochoerus limnetes,0.008
+pounce/pursuit,11,321.7111712,grazer,terrestrial,Mellivora sp.,Kolpochoerus limnetes,0.008
+pounce/pursuit,11,342.4805,grazer,semi.aquatic,Mellivora sp.,aff.Hippopotamus aethiopicus,0.016
+pounce/pursuit,11,342.4805,grazer,semi.aquatic,Lupulella sp.,aff.Hippopotamus aethiopicus,0.016
+pounce/pursuit,11,3455.726179,browser,terrestrial,Lupulella sp.,Deinotherium bozasi,0.028
+pounce/pursuit,11,3455.726179,browser,terrestrial,Mellivora sp.,Deinotherium bozasi,0.028
+pounce/pursuit,11,346.148887,browser,terrestrial,Lupulella sp.,Giraffa jumae,0.008
+pounce/pursuit,11,346.148887,browser,terrestrial,Mellivora sp.,Giraffa jumae,0.008
+pounce/pursuit,11,355.0173762,grazer,terrestrial,Mellivora sp.,Pelorovis oldowayensis,0.012
+pounce/pursuit,11,355.0173762,grazer,terrestrial,Lupulella sp.,Pelorovis oldowayensis,0.012
+pounce/pursuit,11,36.86083147,mixed feeder,terrestrial,Lupulella sp.,Antidorcas recki,0.006
+pounce/pursuit,11,36.86083147,mixed feeder,terrestrial,Mellivora sp.,Antidorcas recki,0.006
+pounce/pursuit,11,378.8974598,grazer,terrestrial,Lupulella sp.,Equus koobiforensis,0.012
+pounce/pursuit,11,378.8974598,grazer,terrestrial,Mellivora sp.,Equus koobiforensis,0.012
+pounce/pursuit,11,39.22960369,mixed feeder,terrestrial,Lupulella sp.,Gazella janenschi,0.002
+pounce/pursuit,11,39.22960369,mixed feeder,terrestrial,Mellivora sp.,Gazella janenschi,0.002
+pounce/pursuit,11,39.87369,mixed feeder,terrestrial,Mellivora sp.,Gazella praethomsoni,0.002
+pounce/pursuit,11,39.87369,mixed feeder,terrestrial,Lupulella sp.,Gazella praethomsoni,0.002
+pounce/pursuit,11,41.54340301,mixed feeder,terrestrial,Mellivora sp.,Theropithecus brumpti,0
+pounce/pursuit,11,41.54340301,mixed feeder,terrestrial,Lupulella sp.,Theropithecus brumpti,0
+pounce/pursuit,11,46.62301909,grazer,terrestrial,Mellivora sp.,Redunca sp.,0.01
+pounce/pursuit,11,46.62301909,grazer,terrestrial,Lupulella sp.,Redunca sp.,0.01
+pounce/pursuit,11,538.231286,grazer,terrestrial,Lupulella sp.,Metridiochoerus hopwoodi,0.014
+pounce/pursuit,11,538.231286,grazer,terrestrial,Mellivora sp.,Metridiochoerus hopwoodi,0.014
+pounce/pursuit,11,54.88472739,grazer,terrestrial,Lupulella sp.,Theropithecus oswaldi,0.01
+pounce/pursuit,11,54.88472739,grazer,terrestrial,Mellivora sp.,Theropithecus oswaldi,0.01
+pounce/pursuit,11,56.21818506,grazer,terrestrial,Mellivora sp.,Kobus leche,0.01
+pounce/pursuit,11,56.21818506,grazer,terrestrial,Lupulella sp.,Kobus leche,0.01
+pounce/pursuit,11,567.031,grazer,terrestrial,Mellivora sp.,Notochoerus euilus/scotti,0.014
+pounce/pursuit,11,567.031,grazer,terrestrial,Lupulella sp.,Notochoerus euilus/scotti,0.014
+pounce/pursuit,11,57.88258579,grazer,terrestrial,Lupulella sp.,Kobus kob,0.012
+pounce/pursuit,11,57.88258579,grazer,terrestrial,Mellivora sp.,Kobus kob,0.012
+pounce/pursuit,11,59.62460828,mixed feeder,terrestrial,Lupulella sp.,Aepyceros melampus,0.004
+pounce/pursuit,11,59.62460828,mixed feeder,terrestrial,Mellivora sp.,Aepyceros melampus,0.004
+pounce/pursuit,11,6.896869945,browser,arboreal,Lupulella sp.,Colobus freedmani,0
+pounce/pursuit,11,6.896869945,browser,arboreal,Mellivora sp.,Colobus freedmani,0
+pounce/pursuit,11,600.9485317,grazer,terrestrial,Mellivora sp.,Metridiochoerus andrewsi,0.01
+pounce/pursuit,11,600.9485317,grazer,terrestrial,Lupulella sp.,Metridiochoerus andrewsi,0.01
+pounce/pursuit,11,695.3814794,mixed feeder,terrestrial,Mellivora sp.,Sivatherium maurusium,0.008
+pounce/pursuit,11,695.3814794,mixed feeder,terrestrial,Lupulella sp.,Sivatherium maurusium,0.008
+pounce/pursuit,11,705.7447,grazer,semi.aquatic,Mellivora sp.,aff.Hippopotamus karumensis,0.012
+pounce/pursuit,11,705.7447,grazer,semi.aquatic,Lupulella sp.,aff.Hippopotamus karumensis,0.012
+pounce/pursuit,11,7178.612708,mixed feeder,terrestrial,Lupulella sp.,Loxodonta adaurora,0.002
+pounce/pursuit,11,7178.612708,mixed feeder,terrestrial,Mellivora sp.,Loxodonta adaurora,0.002
+pounce/pursuit,11,742.9456,mixed feeder,terrestrial,Mellivora sp.,Ceratotherium mauritanicum/simum,0.008
+pounce/pursuit,11,742.9456,mixed feeder,terrestrial,Lupulella sp.,Ceratotherium mauritanicum/simum,0.008
+pounce/pursuit,11,86.71985908,grazer,terrestrial,Lupulella sp.,Kobus sigmoidalis,0.01
+pounce/pursuit,11,86.71985908,grazer,terrestrial,Mellivora sp.,Kobus sigmoidalis,0.01
+pounce/pursuit,11,89.7214,grazer,terrestrial,Mellivora sp.,Damaliscus eppsi,0.008
+pounce/pursuit,11,89.7214,grazer,terrestrial,Lupulella sp.,Damaliscus eppsi,0.008
+pounce/pursuit,11,92.67248,grazer,terrestrial,Mellivora sp.,Beatragus antiquus,0.008
+pounce/pursuit,11,92.67248,grazer,terrestrial,Lupulella sp.,Beatragus antiquus,0.008
+pounce/pursuit,11,925.279333,browser,terrestrial,Lupulella sp.,Diceros bicornis,0.028
+pounce/pursuit,11,925.279333,browser,terrestrial,Mellivora sp.,Diceros bicornis,0.028
+pounce/pursuit,11,9320.381943,grazer,terrestrial,Lupulella sp.,Elephas recki,0.002
+pounce/pursuit,11,9320.381943,grazer,terrestrial,Mellivora sp.,Elephas recki,0.002
+pounce/pursuit,11,96.38324658,grazer,terrestrial,Lupulella sp.,Menelikia lyrocera,0.008
+pounce/pursuit,11,96.38324658,grazer,terrestrial,Mellivora sp.,Menelikia lyrocera,0.008
+pounce/pursuit,11,970.8538527,grazer,semi.aquatic,Lupulella sp.,Hippopotamus gorgops,0.006
+pounce/pursuit,11,970.8538527,grazer,semi.aquatic,Mellivora sp.,Hippopotamus gorgops,0.006
+pounce/pursuit,35,10.39786,browser,semi.arboreal,Hyaena hyaena,Lophocebus sp.,0.016
+pounce/pursuit,35,102.5288,grazer,terrestrial,Hyaena hyaena,Kobus ancystrocera,0.054
+pounce/pursuit,35,109.9097124,grazer,terrestrial,Hyaena hyaena,Kobus ellipsiprymnus,0.052
+pounce/pursuit,35,128.268,grazer,terrestrial,Hyaena hyaena,Oryx sp.,0.064
+pounce/pursuit,35,132.1330377,browser,terrestrial,Hyaena hyaena,Giraffa pygmaea,0.024
+pounce/pursuit,35,133.2710467,grazer,terrestrial,Hyaena hyaena,Connochaetes gentryi,0.064
+pounce/pursuit,35,159.0201973,browser,terrestrial,Hyaena hyaena,Tragelaphus strepsiceros,0.03
+pounce/pursuit,35,167.0892479,mixed feeder,terrestrial,Hyaena hyaena,Tragelaphus nakuae,0.054
+pounce/pursuit,35,18.47564,browser,semi.arboreal,Hyaena hyaena,Paracolobus mutiwa,0.028
+pounce/pursuit,35,186.1955961,grazer,terrestrial,Hyaena hyaena,Hippotragus gigas,0.076
+pounce/pursuit,35,21.65387575,browser,semi.arboreal,Hyaena hyaena,Cercopithecoides kimeui,0.066
+pounce/pursuit,35,223.9939,browser,terrestrial,Hyaena hyaena,Giraffa stillei-gracilis,0.012
+pounce/pursuit,35,224.3292,grazer,terrestrial,Hyaena hyaena,Eurygnathohippus ethiopicum,0.07
+pounce/pursuit,35,23.6110847,browser,semi.arboreal,Hyaena hyaena,Rhinocolobus turkanaensis,0.112
+pounce/pursuit,35,231.2908944,grazer,terrestrial,Hyaena hyaena,Megalotragus isaaci,0.07
+pounce/pursuit,35,260.2536646,grazer,terrestrial,Hyaena hyaena,Eurygnathohippus cornelianus,0.062
+pounce/pursuit,35,275.3058287,grazer,terrestrial,Hyaena hyaena,Metridiochoerus modestus,0.066
+pounce/pursuit,35,275.7732912,grazer,terrestrial,Hyaena hyaena,Pelorovis turkanensis,0.066
+pounce/pursuit,35,30.71047932,browser,semi.arboreal,Hyaena hyaena,Cercopithecoides williamsi,0.142
+pounce/pursuit,35,307.4342098,grazer,terrestrial,Hyaena hyaena,Eurygnathohippus hasumense,0.064
+pounce/pursuit,35,321.7111712,grazer,terrestrial,Hyaena hyaena,Kolpochoerus limnetes,0.066
+pounce/pursuit,35,342.4805,grazer,semi.aquatic,Hyaena hyaena,aff.Hippopotamus aethiopicus,0.164
+pounce/pursuit,35,3455.726179,browser,terrestrial,Hyaena hyaena,Deinotherium bozasi,0.112
+pounce/pursuit,35,346.148887,browser,terrestrial,Hyaena hyaena,Giraffa jumae,0.024
+pounce/pursuit,35,355.0173762,grazer,terrestrial,Hyaena hyaena,Pelorovis oldowayensis,0.084
+pounce/pursuit,35,36.86083147,mixed feeder,terrestrial,Hyaena hyaena,Antidorcas recki,0.06
+pounce/pursuit,35,378.8974598,grazer,terrestrial,Hyaena hyaena,Equus koobiforensis,0.084
+pounce/pursuit,35,39.22960369,mixed feeder,terrestrial,Hyaena hyaena,Gazella janenschi,0.056
+pounce/pursuit,35,39.87369,mixed feeder,terrestrial,Hyaena hyaena,Gazella praethomsoni,0.058
+pounce/pursuit,35,41.54340301,mixed feeder,terrestrial,Hyaena hyaena,Theropithecus brumpti,0.056
+pounce/pursuit,35,46.62301909,grazer,terrestrial,Hyaena hyaena,Redunca sp.,0.054
+pounce/pursuit,35,538.231286,grazer,terrestrial,Hyaena hyaena,Metridiochoerus hopwoodi,0.088
+pounce/pursuit,35,54.88472739,grazer,terrestrial,Hyaena hyaena,Theropithecus oswaldi,0.05
+pounce/pursuit,35,56.21818506,grazer,terrestrial,Hyaena hyaena,Kobus leche,0.05
+pounce/pursuit,35,567.031,grazer,terrestrial,Hyaena hyaena,Notochoerus euilus/scotti,0.088
+pounce/pursuit,35,57.88258579,grazer,terrestrial,Hyaena hyaena,Kobus kob,0.05
+pounce/pursuit,35,59.62460828,mixed feeder,terrestrial,Hyaena hyaena,Aepyceros melampus,0.036
+pounce/pursuit,35,6.896869945,browser,arboreal,Hyaena hyaena,Colobus freedmani,0
+pounce/pursuit,35,600.9485317,grazer,terrestrial,Hyaena hyaena,Metridiochoerus andrewsi,0.088
+pounce/pursuit,35,695.3814794,mixed feeder,terrestrial,Hyaena hyaena,Sivatherium maurusium,0.07
+pounce/pursuit,35,705.7447,grazer,semi.aquatic,Hyaena hyaena,aff.Hippopotamus karumensis,0.166
+pounce/pursuit,35,7178.612708,mixed feeder,terrestrial,Hyaena hyaena,Loxodonta adaurora,0.026
+pounce/pursuit,35,742.9456,mixed feeder,terrestrial,Hyaena hyaena,Ceratotherium mauritanicum/simum,0.07
+pounce/pursuit,35,86.71985908,grazer,terrestrial,Hyaena hyaena,Kobus sigmoidalis,0.054
+pounce/pursuit,35,89.7214,grazer,terrestrial,Hyaena hyaena,Damaliscus eppsi,0.054
+pounce/pursuit,35,92.67248,grazer,terrestrial,Hyaena hyaena,Beatragus antiquus,0.054
+pounce/pursuit,35,925.279333,browser,terrestrial,Hyaena hyaena,Diceros bicornis,0.126
+pounce/pursuit,35,9320.381943,grazer,terrestrial,Hyaena hyaena,Elephas recki,0.046
+pounce/pursuit,35,96.38324658,grazer,terrestrial,Hyaena hyaena,Menelikia lyrocera,0.054
+pounce/pursuit,35,970.8538527,grazer,semi.aquatic,Hyaena hyaena,Hippopotamus gorgops,0.156
+pounce/pursuit,387,10.39786,browser,semi.arboreal,Homotherium sp.,Lophocebus sp.,0.15
+pounce/pursuit,387,102.5288,grazer,terrestrial,Homotherium sp.,Kobus ancystrocera,0.36
+pounce/pursuit,387,109.9097124,grazer,terrestrial,Homotherium sp.,Kobus ellipsiprymnus,0.36
+pounce/pursuit,387,128.268,grazer,terrestrial,Homotherium sp.,Oryx sp.,0.378
+pounce/pursuit,387,132.1330377,browser,terrestrial,Homotherium sp.,Giraffa pygmaea,0.072
+pounce/pursuit,387,133.2710467,grazer,terrestrial,Homotherium sp.,Connochaetes gentryi,0.378
+pounce/pursuit,387,159.0201973,browser,terrestrial,Homotherium sp.,Tragelaphus strepsiceros,0.09
+pounce/pursuit,387,167.0892479,mixed feeder,terrestrial,Homotherium sp.,Tragelaphus nakuae,0.278
+pounce/pursuit,387,18.47564,browser,semi.arboreal,Homotherium sp.,Paracolobus mutiwa,0.142
+pounce/pursuit,387,186.1955961,grazer,terrestrial,Homotherium sp.,Hippotragus gigas,0.412
+pounce/pursuit,387,21.65387575,browser,semi.arboreal,Homotherium sp.,Cercopithecoides kimeui,0.124
+pounce/pursuit,387,223.9939,browser,terrestrial,Homotherium sp.,Giraffa stillei-gracilis,0.08
+pounce/pursuit,387,224.3292,grazer,terrestrial,Homotherium sp.,Eurygnathohippus ethiopicum,0.414
+pounce/pursuit,387,23.6110847,browser,semi.arboreal,Homotherium sp.,Rhinocolobus turkanaensis,0.176
+pounce/pursuit,387,231.2908944,grazer,terrestrial,Homotherium sp.,Megalotragus isaaci,0.414
+pounce/pursuit,387,260.2536646,grazer,terrestrial,Homotherium sp.,Eurygnathohippus cornelianus,0.412
+pounce/pursuit,387,275.3058287,grazer,terrestrial,Homotherium sp.,Metridiochoerus modestus,0.398
+pounce/pursuit,387,275.7732912,grazer,terrestrial,Homotherium sp.,Pelorovis turkanensis,0.398
+pounce/pursuit,387,30.71047932,browser,semi.arboreal,Homotherium sp.,Cercopithecoides williamsi,0.242
+pounce/pursuit,387,307.4342098,grazer,terrestrial,Homotherium sp.,Eurygnathohippus hasumense,0.384
+pounce/pursuit,387,321.7111712,grazer,terrestrial,Homotherium sp.,Kolpochoerus limnetes,0.388
+pounce/pursuit,387,342.4805,grazer,semi.aquatic,Homotherium sp.,aff.Hippopotamus aethiopicus,0.55
+pounce/pursuit,387,3455.726179,browser,terrestrial,Homotherium sp.,Deinotherium bozasi,0.3
+pounce/pursuit,387,346.148887,browser,terrestrial,Homotherium sp.,Giraffa jumae,0.11
+pounce/pursuit,387,355.0173762,grazer,terrestrial,Homotherium sp.,Pelorovis oldowayensis,0.43
+pounce/pursuit,387,36.86083147,mixed feeder,terrestrial,Homotherium sp.,Antidorcas recki,0.212
+pounce/pursuit,387,378.8974598,grazer,terrestrial,Homotherium sp.,Equus koobiforensis,0.43
+pounce/pursuit,387,39.22960369,mixed feeder,terrestrial,Homotherium sp.,Gazella janenschi,0.204
+pounce/pursuit,387,39.87369,mixed feeder,terrestrial,Homotherium sp.,Gazella praethomsoni,0.208
+pounce/pursuit,387,41.54340301,mixed feeder,terrestrial,Homotherium sp.,Theropithecus brumpti,0.21
+pounce/pursuit,387,46.62301909,grazer,terrestrial,Homotherium sp.,Redunca sp.,0.316
+pounce/pursuit,387,538.231286,grazer,terrestrial,Homotherium sp.,Metridiochoerus hopwoodi,0.448
+pounce/pursuit,387,54.88472739,grazer,terrestrial,Homotherium sp.,Theropithecus oswaldi,0.27
+pounce/pursuit,387,56.21818506,grazer,terrestrial,Homotherium sp.,Kobus leche,0.266
+pounce/pursuit,387,567.031,grazer,terrestrial,Homotherium sp.,Notochoerus euilus/scotti,0.45
+pounce/pursuit,387,57.88258579,grazer,terrestrial,Homotherium sp.,Kobus kob,0.264
+pounce/pursuit,387,59.62460828,mixed feeder,terrestrial,Homotherium sp.,Aepyceros melampus,0.122
+pounce/pursuit,387,6.896869945,browser,arboreal,Homotherium sp.,Colobus freedmani,0.008
+pounce/pursuit,387,600.9485317,grazer,terrestrial,Homotherium sp.,Metridiochoerus andrewsi,0.45
+pounce/pursuit,387,695.3814794,mixed feeder,terrestrial,Homotherium sp.,Sivatherium maurusium,0.346
+pounce/pursuit,387,705.7447,grazer,semi.aquatic,Homotherium sp.,aff.Hippopotamus karumensis,0.574
+pounce/pursuit,387,7178.612708,mixed feeder,terrestrial,Homotherium sp.,Loxodonta adaurora,0.394
+pounce/pursuit,387,742.9456,mixed feeder,terrestrial,Homotherium sp.,Ceratotherium mauritanicum/simum,0.35
+pounce/pursuit,387,86.71985908,grazer,terrestrial,Homotherium sp.,Kobus sigmoidalis,0.362
+pounce/pursuit,387,89.7214,grazer,terrestrial,Homotherium sp.,Damaliscus eppsi,0.36
+pounce/pursuit,387,92.67248,grazer,terrestrial,Homotherium sp.,Beatragus antiquus,0.36
+pounce/pursuit,387,925.279333,browser,terrestrial,Homotherium sp.,Diceros bicornis,0.306
+pounce/pursuit,387,9320.381943,grazer,terrestrial,Homotherium sp.,Elephas recki,0.51
+pounce/pursuit,387,96.38324658,grazer,terrestrial,Homotherium sp.,Menelikia lyrocera,0.36
+pounce/pursuit,387,970.8538527,grazer,semi.aquatic,Homotherium sp.,Hippopotamus gorgops,0.622
+pursuit,51,10.39786,browser,semi.arboreal,Acinonyx sp.,Lophocebus sp.,0.016
+pursuit,51,102.5288,grazer,terrestrial,Acinonyx sp.,Kobus ancystrocera,0.19
+pursuit,51,109.9097124,grazer,terrestrial,Acinonyx sp.,Kobus ellipsiprymnus,0.19
+pursuit,51,128.268,grazer,terrestrial,Acinonyx sp.,Oryx sp.,0.194
+pursuit,51,132.1330377,browser,terrestrial,Acinonyx sp.,Giraffa pygmaea,0.022
+pursuit,51,133.2710467,grazer,terrestrial,Acinonyx sp.,Connochaetes gentryi,0.194
+pursuit,51,159.0201973,browser,terrestrial,Acinonyx sp.,Tragelaphus strepsiceros,0.026
+pursuit,51,167.0892479,mixed feeder,terrestrial,Acinonyx sp.,Tragelaphus nakuae,0.116
+pursuit,51,18.47564,browser,semi.arboreal,Acinonyx sp.,Paracolobus mutiwa,0.008
+pursuit,51,186.1955961,grazer,terrestrial,Acinonyx sp.,Hippotragus gigas,0.214
+pursuit,51,21.65387575,browser,semi.arboreal,Acinonyx sp.,Cercopithecoides kimeui,0.008
+pursuit,51,223.9939,browser,terrestrial,Acinonyx sp.,Giraffa stillei-gracilis,0.02
+pursuit,51,224.3292,grazer,terrestrial,Acinonyx sp.,Eurygnathohippus ethiopicum,0.25
+pursuit,51,23.6110847,browser,semi.arboreal,Acinonyx sp.,Rhinocolobus turkanaensis,0.082
+pursuit,51,231.2908944,grazer,terrestrial,Acinonyx sp.,Megalotragus isaaci,0.25
+pursuit,51,260.2536646,grazer,terrestrial,Acinonyx sp.,Eurygnathohippus cornelianus,0.238
+pursuit,51,275.3058287,grazer,terrestrial,Acinonyx sp.,Metridiochoerus modestus,0.198
+pursuit,51,275.7732912,grazer,terrestrial,Acinonyx sp.,Pelorovis turkanensis,0.198
+pursuit,51,30.71047932,browser,semi.arboreal,Acinonyx sp.,Cercopithecoides williamsi,0.13
+pursuit,51,307.4342098,grazer,terrestrial,Acinonyx sp.,Eurygnathohippus hasumense,0.198
+pursuit,51,321.7111712,grazer,terrestrial,Acinonyx sp.,Kolpochoerus limnetes,0.198
+pursuit,51,342.4805,grazer,semi.aquatic,Acinonyx sp.,aff.Hippopotamus aethiopicus,0.352
+pursuit,51,3455.726179,browser,terrestrial,Acinonyx sp.,Deinotherium bozasi,0.182
+pursuit,51,346.148887,browser,terrestrial,Acinonyx sp.,Giraffa jumae,0.026
+pursuit,51,355.0173762,grazer,terrestrial,Acinonyx sp.,Pelorovis oldowayensis,0.242
+pursuit,51,36.86083147,mixed feeder,terrestrial,Acinonyx sp.,Antidorcas recki,0.08
+pursuit,51,378.8974598,grazer,terrestrial,Acinonyx sp.,Equus koobiforensis,0.242
+pursuit,51,39.22960369,mixed feeder,terrestrial,Acinonyx sp.,Gazella janenschi,0.08
+pursuit,51,39.87369,mixed feeder,terrestrial,Acinonyx sp.,Gazella praethomsoni,0.08
+pursuit,51,41.54340301,mixed feeder,terrestrial,Acinonyx sp.,Theropithecus brumpti,0.086
+pursuit,51,46.62301909,grazer,terrestrial,Acinonyx sp.,Redunca sp.,0.18
+pursuit,51,538.231286,grazer,terrestrial,Acinonyx sp.,Metridiochoerus hopwoodi,0.246
+pursuit,51,54.88472739,grazer,terrestrial,Acinonyx sp.,Theropithecus oswaldi,0.166
+pursuit,51,56.21818506,grazer,terrestrial,Acinonyx sp.,Kobus leche,0.164
+pursuit,51,567.031,grazer,terrestrial,Acinonyx sp.,Notochoerus euilus/scotti,0.246
+pursuit,51,57.88258579,grazer,terrestrial,Acinonyx sp.,Kobus kob,0.162
+pursuit,51,59.62460828,mixed feeder,terrestrial,Acinonyx sp.,Aepyceros melampus,0.04
+pursuit,51,6.896869945,browser,arboreal,Acinonyx sp.,Colobus freedmani,0
+pursuit,51,600.9485317,grazer,terrestrial,Acinonyx sp.,Metridiochoerus andrewsi,0.248
+pursuit,51,695.3814794,mixed feeder,terrestrial,Acinonyx sp.,Sivatherium maurusium,0.15
+pursuit,51,705.7447,grazer,semi.aquatic,Acinonyx sp.,aff.Hippopotamus karumensis,0.356
+pursuit,51,7178.612708,mixed feeder,terrestrial,Acinonyx sp.,Loxodonta adaurora,0.07
+pursuit,51,742.9456,mixed feeder,terrestrial,Acinonyx sp.,Ceratotherium mauritanicum/simum,0.15
+pursuit,51,86.71985908,grazer,terrestrial,Acinonyx sp.,Kobus sigmoidalis,0.202
+pursuit,51,89.7214,grazer,terrestrial,Acinonyx sp.,Damaliscus eppsi,0.198
+pursuit,51,92.67248,grazer,terrestrial,Acinonyx sp.,Beatragus antiquus,0.198
+pursuit,51,925.279333,browser,terrestrial,Acinonyx sp.,Diceros bicornis,0.218
+pursuit,51,9320.381943,grazer,terrestrial,Acinonyx sp.,Elephas recki,0.106
+pursuit,51,96.38324658,grazer,terrestrial,Acinonyx sp.,Menelikia lyrocera,0.198
+pursuit,51,970.8538527,grazer,semi.aquatic,Acinonyx sp.,Hippopotamus gorgops,0.334
+pursuit,84,10.39786,browser,semi.arboreal,Crocuta dietrichi,Lophocebus sp.,0.192
+pursuit,84,102.5288,grazer,terrestrial,Crocuta dietrichi,Kobus ancystrocera,0.35
+pursuit,84,109.9097124,grazer,terrestrial,Crocuta dietrichi,Kobus ellipsiprymnus,0.35
+pursuit,84,128.268,grazer,terrestrial,Crocuta dietrichi,Oryx sp.,0.36
+pursuit,84,132.1330377,browser,terrestrial,Crocuta dietrichi,Giraffa pygmaea,0.108
+pursuit,84,133.2710467,grazer,terrestrial,Crocuta dietrichi,Connochaetes gentryi,0.36
+pursuit,84,159.0201973,browser,terrestrial,Crocuta dietrichi,Tragelaphus strepsiceros,0.112
+pursuit,84,167.0892479,mixed feeder,terrestrial,Crocuta dietrichi,Tragelaphus nakuae,0.308
+pursuit,84,18.47564,browser,semi.arboreal,Crocuta dietrichi,Paracolobus mutiwa,0.154
+pursuit,84,186.1955961,grazer,terrestrial,Crocuta dietrichi,Hippotragus gigas,0.392
+pursuit,84,21.65387575,browser,semi.arboreal,Crocuta dietrichi,Cercopithecoides kimeui,0.128
+pursuit,84,223.9939,browser,terrestrial,Crocuta dietrichi,Giraffa stillei-gracilis,0.126
+pursuit,84,224.3292,grazer,terrestrial,Crocuta dietrichi,Eurygnathohippus ethiopicum,0.434
+pursuit,84,23.6110847,browser,semi.arboreal,Crocuta dietrichi,Rhinocolobus turkanaensis,0.178
+pursuit,84,231.2908944,grazer,terrestrial,Crocuta dietrichi,Megalotragus isaaci,0.436
+pursuit,84,260.2536646,grazer,terrestrial,Crocuta dietrichi,Eurygnathohippus cornelianus,0.428
+pursuit,84,275.3058287,grazer,terrestrial,Crocuta dietrichi,Metridiochoerus modestus,0.372
+pursuit,84,275.7732912,grazer,terrestrial,Crocuta dietrichi,Pelorovis turkanensis,0.372
+pursuit,84,30.71047932,browser,semi.arboreal,Crocuta dietrichi,Cercopithecoides williamsi,0.23
+pursuit,84,307.4342098,grazer,terrestrial,Crocuta dietrichi,Eurygnathohippus hasumense,0.368
+pursuit,84,321.7111712,grazer,terrestrial,Crocuta dietrichi,Kolpochoerus limnetes,0.368
+pursuit,84,342.4805,grazer,semi.aquatic,Crocuta dietrichi,aff.Hippopotamus aethiopicus,0.586
+pursuit,84,3455.726179,browser,terrestrial,Crocuta dietrichi,Deinotherium bozasi,0.4
+pursuit,84,346.148887,browser,terrestrial,Crocuta dietrichi,Giraffa jumae,0.154
+pursuit,84,355.0173762,grazer,terrestrial,Crocuta dietrichi,Pelorovis oldowayensis,0.438
+pursuit,84,36.86083147,mixed feeder,terrestrial,Crocuta dietrichi,Antidorcas recki,0.25
+pursuit,84,378.8974598,grazer,terrestrial,Crocuta dietrichi,Equus koobiforensis,0.438
+pursuit,84,39.22960369,mixed feeder,terrestrial,Crocuta dietrichi,Gazella janenschi,0.25
+pursuit,84,39.87369,mixed feeder,terrestrial,Crocuta dietrichi,Gazella praethomsoni,0.252
+pursuit,84,41.54340301,mixed feeder,terrestrial,Crocuta dietrichi,Theropithecus brumpti,0.252
+pursuit,84,46.62301909,grazer,terrestrial,Crocuta dietrichi,Redunca sp.,0.356
+pursuit,84,538.231286,grazer,terrestrial,Crocuta dietrichi,Metridiochoerus hopwoodi,0.464
+pursuit,84,54.88472739,grazer,terrestrial,Crocuta dietrichi,Theropithecus oswaldi,0.282
+pursuit,84,56.21818506,grazer,terrestrial,Crocuta dietrichi,Kobus leche,0.278
+pursuit,84,567.031,grazer,terrestrial,Crocuta dietrichi,Notochoerus euilus/scotti,0.464
+pursuit,84,57.88258579,grazer,terrestrial,Crocuta dietrichi,Kobus kob,0.276
+pursuit,84,59.62460828,mixed feeder,terrestrial,Crocuta dietrichi,Aepyceros melampus,0.138
+pursuit,84,6.896869945,browser,arboreal,Crocuta dietrichi,Colobus freedmani,0
+pursuit,84,600.9485317,grazer,terrestrial,Crocuta dietrichi,Metridiochoerus andrewsi,0.464
+pursuit,84,695.3814794,mixed feeder,terrestrial,Crocuta dietrichi,Sivatherium maurusium,0.404
+pursuit,84,705.7447,grazer,semi.aquatic,Crocuta dietrichi,aff.Hippopotamus karumensis,0.616
+pursuit,84,7178.612708,mixed feeder,terrestrial,Crocuta dietrichi,Loxodonta adaurora,0.474
+pursuit,84,742.9456,mixed feeder,terrestrial,Crocuta dietrichi,Ceratotherium mauritanicum/simum,0.406
+pursuit,84,86.71985908,grazer,terrestrial,Crocuta dietrichi,Kobus sigmoidalis,0.358
+pursuit,84,89.7214,grazer,terrestrial,Crocuta dietrichi,Damaliscus eppsi,0.348
+pursuit,84,92.67248,grazer,terrestrial,Crocuta dietrichi,Beatragus antiquus,0.348
+pursuit,84,925.279333,browser,terrestrial,Crocuta dietrichi,Diceros bicornis,0.402
+pursuit,84,9320.381943,grazer,terrestrial,Crocuta dietrichi,Elephas recki,0.54
+pursuit,84,96.38324658,grazer,terrestrial,Crocuta dietrichi,Menelikia lyrocera,0.348
+pursuit,84,970.8538527,grazer,semi.aquatic,Crocuta dietrichi,Hippopotamus gorgops,0.68
+pursuit,98,10.39786,browser,semi.arboreal,Crocuta ultra,Lophocebus sp.,0.192
+pursuit,98,102.5288,grazer,terrestrial,Crocuta ultra,Kobus ancystrocera,0.35
+pursuit,98,109.9097124,grazer,terrestrial,Crocuta ultra,Kobus ellipsiprymnus,0.35
+pursuit,98,128.268,grazer,terrestrial,Crocuta ultra,Oryx sp.,0.36
+pursuit,98,132.1330377,browser,terrestrial,Crocuta ultra,Giraffa pygmaea,0.108
+pursuit,98,133.2710467,grazer,terrestrial,Crocuta ultra,Connochaetes gentryi,0.36
+pursuit,98,159.0201973,browser,terrestrial,Crocuta ultra,Tragelaphus strepsiceros,0.112
+pursuit,98,167.0892479,mixed feeder,terrestrial,Crocuta ultra,Tragelaphus nakuae,0.308
+pursuit,98,18.47564,browser,semi.arboreal,Crocuta ultra,Paracolobus mutiwa,0.154
+pursuit,98,186.1955961,grazer,terrestrial,Crocuta ultra,Hippotragus gigas,0.392
+pursuit,98,21.65387575,browser,semi.arboreal,Crocuta ultra,Cercopithecoides kimeui,0.128
+pursuit,98,223.9939,browser,terrestrial,Crocuta ultra,Giraffa stillei-gracilis,0.126
+pursuit,98,224.3292,grazer,terrestrial,Crocuta ultra,Eurygnathohippus ethiopicum,0.434
+pursuit,98,23.6110847,browser,semi.arboreal,Crocuta ultra,Rhinocolobus turkanaensis,0.178
+pursuit,98,231.2908944,grazer,terrestrial,Crocuta ultra,Megalotragus isaaci,0.436
+pursuit,98,260.2536646,grazer,terrestrial,Crocuta ultra,Eurygnathohippus cornelianus,0.428
+pursuit,98,275.3058287,grazer,terrestrial,Crocuta ultra,Metridiochoerus modestus,0.372
+pursuit,98,275.7732912,grazer,terrestrial,Crocuta ultra,Pelorovis turkanensis,0.372
+pursuit,98,30.71047932,browser,semi.arboreal,Crocuta ultra,Cercopithecoides williamsi,0.23
+pursuit,98,307.4342098,grazer,terrestrial,Crocuta ultra,Eurygnathohippus hasumense,0.368
+pursuit,98,321.7111712,grazer,terrestrial,Crocuta ultra,Kolpochoerus limnetes,0.368
+pursuit,98,342.4805,grazer,semi.aquatic,Crocuta ultra,aff.Hippopotamus aethiopicus,0.586
+pursuit,98,3455.726179,browser,terrestrial,Crocuta ultra,Deinotherium bozasi,0.4
+pursuit,98,346.148887,browser,terrestrial,Crocuta ultra,Giraffa jumae,0.154
+pursuit,98,355.0173762,grazer,terrestrial,Crocuta ultra,Pelorovis oldowayensis,0.438
+pursuit,98,36.86083147,mixed feeder,terrestrial,Crocuta ultra,Antidorcas recki,0.25
+pursuit,98,378.8974598,grazer,terrestrial,Crocuta ultra,Equus koobiforensis,0.438
+pursuit,98,39.22960369,mixed feeder,terrestrial,Crocuta ultra,Gazella janenschi,0.25
+pursuit,98,39.87369,mixed feeder,terrestrial,Crocuta ultra,Gazella praethomsoni,0.252
+pursuit,98,41.54340301,mixed feeder,terrestrial,Crocuta ultra,Theropithecus brumpti,0.252
+pursuit,98,46.62301909,grazer,terrestrial,Crocuta ultra,Redunca sp.,0.356
+pursuit,98,538.231286,grazer,terrestrial,Crocuta ultra,Metridiochoerus hopwoodi,0.464
+pursuit,98,54.88472739,grazer,terrestrial,Crocuta ultra,Theropithecus oswaldi,0.282
+pursuit,98,56.21818506,grazer,terrestrial,Crocuta ultra,Kobus leche,0.278
+pursuit,98,567.031,grazer,terrestrial,Crocuta ultra,Notochoerus euilus/scotti,0.464
+pursuit,98,57.88258579,grazer,terrestrial,Crocuta ultra,Kobus kob,0.276
+pursuit,98,59.62460828,mixed feeder,terrestrial,Crocuta ultra,Aepyceros melampus,0.138
+pursuit,98,6.896869945,browser,arboreal,Crocuta ultra,Colobus freedmani,0
+pursuit,98,600.9485317,grazer,terrestrial,Crocuta ultra,Metridiochoerus andrewsi,0.464
+pursuit,98,695.3814794,mixed feeder,terrestrial,Crocuta ultra,Sivatherium maurusium,0.404
+pursuit,98,705.7447,grazer,semi.aquatic,Crocuta ultra,aff.Hippopotamus karumensis,0.616
+pursuit,98,7178.612708,mixed feeder,terrestrial,Crocuta ultra,Loxodonta adaurora,0.474
+pursuit,98,742.9456,mixed feeder,terrestrial,Crocuta ultra,Ceratotherium mauritanicum/simum,0.406
+pursuit,98,86.71985908,grazer,terrestrial,Crocuta ultra,Kobus sigmoidalis,0.358
+pursuit,98,89.7214,grazer,terrestrial,Crocuta ultra,Damaliscus eppsi,0.348
+pursuit,98,92.67248,grazer,terrestrial,Crocuta ultra,Beatragus antiquus,0.348
+pursuit,98,925.279333,browser,terrestrial,Crocuta ultra,Diceros bicornis,0.402
+pursuit,98,9320.381943,grazer,terrestrial,Crocuta ultra,Elephas recki,0.54
+pursuit,98,96.38324658,grazer,terrestrial,Crocuta ultra,Menelikia lyrocera,0.348
+pursuit,98,970.8538527,grazer,semi.aquatic,Crocuta ultra,Hippopotamus gorgops,0.68
