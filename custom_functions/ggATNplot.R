@@ -22,7 +22,7 @@ ggATNplot <- function(modelsolution,
   forGG <- as.data.frame(modelsolution)
   names(forGG)[2:(length(vertexAttributes$taxon) + 1)] <- vertexAttributes$taxon
   forGG <- pivot_longer(forGG, names_to="taxon", values_to="biomass", -time)
-  forGG <- left_join(forGG, vertexAttributes)
+  forGG <- left_join(forGG, vertexAttributes, by = join_by(taxon))
   
   forGG$guild <- factor(forGG$guild, levels=facetOrder, ordered = TRUE)
   
