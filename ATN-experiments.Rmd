@@ -60,7 +60,7 @@ ggplot(guildColors, aes(x=rep(1,6), y=1:6)) +
   
 ```
 
-## Experiment 1 
+## Experiment 1 - number of producer nodes
 
 ### 1.1 - single C3 and single C4 producer node of equal body mass
 
@@ -69,8 +69,8 @@ ggplot(guildColors, aes(x=rep(1,6), y=1:6)) +
 g <- makeGraphForATN(linkDF = UBurgiLinks, 
                      nC4 = 1, 
                      nC3 = 1,
-                     C4bm = 0.1,
-                     C3bm = 0.1
+                     C4bodymass = 0.1,
+                     C3bodymass = 0.1
                      )
 plotGraphWithGuilds(g)
 
@@ -86,8 +86,8 @@ ggATNplot(solved$solution, solved$graph)
 g <- makeGraphForATN(linkDF = UBurgiLinks, 
                      nC4 = 10, 
                      nC3 = 10,
-                     C4bm = 0.1,
-                     C3bm = 0.1
+                     C4bodymass = 0.1,
+                     C3bodymass = 0.1
                      )
 plotGraphWithGuilds(g)
 
@@ -102,8 +102,8 @@ ggATNplot(solved$solution, solved$graph)
 g <- makeGraphForATN(linkDF = UBurgiLinks, 
                      nC4 = 100, 
                      nC3 = 100,
-                     C4bm = 0.1,
-                     C3bm = 0.1
+                     C4bodymass = 0.1,
+                     C3bodymass = 0.1
                      )
 plotGraphWithGuilds(g)
 
@@ -122,7 +122,7 @@ However, the biomass increase of the consumers is much less steep when additiona
 
 
 
-## Experiment 2 
+## Experiment 2 - relative bodymass of producer nodes
 
 
 ### 2.1 - 100 C3 and 100 C4 producer nodes with C3 bodymass / C4 bodymass = 10
@@ -131,8 +131,8 @@ However, the biomass increase of the consumers is much less steep when additiona
 g <- makeGraphForATN(linkDF = UBurgiLinks, 
                      nC4 = 100, 
                      nC3 = 100,
-                     C4bm = 0.01,
-                     C3bm = 0.1
+                     C4bodymass = 0.01,
+                     C3bodymass = 0.1
                      )
 plotGraphWithGuilds(g)
 
@@ -145,3 +145,4 @@ ggATNplot(solved$solution, solved$graph)
 
 There is only a very small (seemingly negligible) difference between experiment 2.1 and experiment 1.3 which had identical paramaters except a 10-fold difference in the C3 versus C4 node body masses,  which suggests to me that the body mass of the producers isn't a super important distinction (at least over the range of variation we have been discussing.)
 
+## Experiment 3 - 
