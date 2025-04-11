@@ -10,14 +10,13 @@ output:
 
 ## *Caveat emptor*
 
-In the current state of code development, link weights are ignored, so if a carnivore feeds on 20 different species, then the ATN model assumes the strength of each interaction is 1/20.  This is unrealistic and needs to change soon. For now the focus is on building an experimental pipeline where we can tweak the models to understand their behavior.  
+In the current state of code development, link weights are ignored, so if a carnivore feeds on 20 different species, then the ATN model assumes the strength of each interaction is 1/20. This is unrealistic and needs to change soon. For now the focus is on building an experimental pipeline where we can tweak the models to understand their behavior.
 
 Also, initial biomasses between 2 and 3 are randomly assigned to all producer and consumer nodes
 
 All other parameters are the defaults created by `ATNr::create_model_Scaled()`
 
 ## Load required dependencies and source custom functions
-
 
 ```{r}
 library(ATNr)
@@ -64,7 +63,6 @@ ggplot(guildColors, aes(x=rep(1,6), y=1:6)) +
 
 ### 1.1 - single C3 and single C4 producer node of equal body mass
 
-
 ```{r}
 g <- makeGraphForATN(linkDF = UBurgiLinks, 
                      nC4 = 1, 
@@ -78,7 +76,6 @@ solved <- runATN(graph=g)
 
 ggATNplot(solved$solution, solved$graph)
 ```
-
 
 ### 1.2 - 10 C3 and 10 C4 producer nodes of equal body mass
 
@@ -118,12 +115,9 @@ By adding additional producer nodes to the system we eliminate much of the bioma
 
 The combined biomass of the producers in each guild (which have equal body masses) increases dramatically when new producers are added. Combined biomass of the C4 producers is 666.5 with 100 C4 producers, compared to 2.2 with a single C4 producer, reflecting approximately a 300 fold increase (note this would change if the producers were competing with one another which they are not).
 
-However, the biomass increase of the consumers is much less steep when additional producer nodes are added.  For instance, with 100 C4 producers, the combined biomass of all grazers is only 26.1 compared to a biomass of 1.8 with a single predictor representing about a 15 fold increase. 
-
-
+However, the biomass increase of the consumers is much less steep when additional producer nodes are added. For instance, with 100 C4 producers, the combined biomass of all grazers is only 26.1 compared to a biomass of 1.8 with a single predictor representing about a 15 fold increase.
 
 ## Experiment 2 - relative bodymass of producer nodes
-
 
 ### 2.1 - 100 C3 and 100 C4 producer nodes with C3 bodymass / C4 bodymass = 10
 
@@ -143,6 +137,42 @@ ggATNplot(solved$solution, solved$graph)
 
 ### 2.2 - Reflections on Experiment 2
 
-There is only a very small (seemingly negligible) difference between experiment 2.1 and experiment 1.3 which had identical paramaters except a 10-fold difference in the C3 versus C4 node body masses,  which suggests to me that the body mass of the producers isn't a super important distinction (at least over the range of variation we have been discussing.)
+There is only a very small (seemingly negligible) difference between experiment 2.1 and experiment 1.3 which had identical parameters except a 10-fold difference in the C3 versus C4 node body masses, which suggests to me that the body mass of the producers isn't a super important distinction (at least over the range of variation we have been discussing.)
 
-## Experiment 3 - 
+## Experiment 3 - change intitial biomasses for C4 producer nodes
+
+### 3.1 - 100 C3 and 100 C4 producer nodes of equal body mass - 2x starting C4 biomass
+
+```{r}
+g <- makeGraphForATN(linkDF = UBurgiLinks, 
+                     nC4 = 100, 
+                     nC3 = 100,
+                     C4bodymass = 0.1,
+                     C3bodymass = 0.1
+                     )
+#plotGraphWithGuilds(g)
+
+# set up initial biomass vector sampling biomases between 2 and 3 
+# as done by default in the runATN function
+initialBioM <- runif(length(V(g)), 2, 3)
+
+# create a boolean vector identifying the C4 
+# producers based on regex match
+isC4producer <- grepl("C4-", vertex_attr(g)$name)
+
+# overwrite the initial biomasses for all C4 producers 
+# to be sampled between 200 and 300
+# i.e. (100x the average biomass of everyone else)
+initialBioM[isC4producer] <- runif(sum(isC4producer), 200, 300)
+
+solved <- runATN(graph=g,
+                 initialBiomasses = initialBioM)
+
+ggATNplot(solved$solution, solved$graph)
+```
+
+### Reflections on experiment 3
+
+Starting out with huge biomasses in C4 producer nodes just results in a crash and the end results are the same as in the experiment where all biomasses are the same as [1.3 - 100 C3 and 100 C4 producer nodes of equal body mass].
+
+I presume this happens because the specified initial C4 biomasses exceed the carrying capacity and therefore immediately drop to the carrying capacity. I should tweak the K parameter to explore those impacts.  
