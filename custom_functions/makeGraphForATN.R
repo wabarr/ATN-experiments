@@ -11,8 +11,8 @@ makeGraphForATN <- function(linkDF,
                       carniBMcolName="carnivore_BM.kg",
                       nC4=5,
                       nC3=5,
-                      C4bm=0.01,
-                      C3bm=0.1
+                      C4bodymass=0.01,
+                      C3bodymass=0.1
                       ) {
   ## function which takes an edge list (linkDF), adds a user-specified number of producer nodes
   ## and converts the resulting edgelist to a igraph object, preserving link probabilities 
@@ -22,7 +22,7 @@ makeGraphForATN <- function(linkDF,
   ## has to have, at a minimum, columns names matching the strings given
   ## in arguments carnivoreColName, preyColName, guildColName, herbBMcolName, carniBMcolName, and linkProbColName
   ## nC4 and nC3 arguments specifies how many C4 and C3 producer nodes should be created
-  ## C4bm and C3bm give the body mass (in kg) of individual producers
+  ## C4bodymass and C3bodymass give the body mass (in kg) of individual producers
 
   if(!preyColName %in% names(linkDF))      stop('value of the preyColName argument does not match a column name in linkDF')
   if(!carnivoreColName %in% names(linkDF)) stop('value of the carnivoreColName argument does not match a column name in linkDF')
@@ -93,7 +93,7 @@ makeGraphForATN <- function(linkDF,
   distinctProducerNodes <- data.frame(
     taxon = c(C3taxa, C4taxa), 
     guild = c(rep("C3", nC3), rep("C4", nC4)),
-    BM =    c(rep(C3bm, nC3), rep(C4bm, nC4))
+    BM =    c(rep(C3bodymass, nC3), rep(C4bodymass, nC4))
   )
   
   
