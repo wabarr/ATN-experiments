@@ -12,7 +12,8 @@ makeGraphForATN <- function(linkDF,
                       nC4=5,
                       nC3=5,
                       C4bodymass=0.01,
-                      C3bodymass=0.1
+                      C3bodymass=0.1,
+                      linkProbThreshold = 0.05
                       ) {
   ## function which takes an edge list (linkDF), adds a user-specified number of producer nodes
   ## and converts the resulting edgelist to a igraph object, preserving link probabilities 
@@ -50,7 +51,8 @@ makeGraphForATN <- function(linkDF,
                           resourceTaxon={{ preyColName }}, 
                           consumerTaxon={{ carnivoreColName }},  
                           linkProb = {{ linkProbColName }}
-                          )
+                          ) %>%
+    filter(linkProb > linkProbThreshold)
   
   grazers <- filter(distinctPrey, guild == "grazer")
   C4taxa <- paste("C4",1:nC4, sep="-")
